@@ -4,7 +4,7 @@ import {Link} from "react-scroll";
 import pic from '../images/logo.png';
 
 const Navbar = styled.div`
-width: 100vw;
+width: 100%;
 border: none;
 border-radius: 0px;
 background: #202020;

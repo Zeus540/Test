@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Container = styled.div`
 background-color:#FFA644;
 display:inline-block;
-width:100vw;
+width:100%;
 @media(max-width:425px){
     display:flex;
     flex-direction:column;

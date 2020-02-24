@@ -144,8 +144,12 @@ body ,h1 {
  
 }
 @media(max-width:768px){
- 
-
+    p{
+        font-size: 12px;
+       }
+       h3{
+        font-size: 12px;
+       }
 
  }
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-width:calc(100%/6);
+
 padding: 0px;
 height: fit-content;
 transition: ease-in 200ms;
@@ -14,16 +14,21 @@ background:transparent;
     background:#FFA644;
     box-shadow: #000000 18px 15px 24px 2px;
 }
-@media(max-width:425px){
-    width:calc(100%/1.4);
+@media(max-width:786px){
+    width:calc(100%/1.8);
     margin: 0 auto;
     margin-bottom:15%;
 }
 
 @media(min-width:500px) and (max-width:1440px) {
-    width:calc(100%/6);
+   
     margin-bottom:2%;
   
+}
+
+@media(min-width:1440px)  {
+    width:calc(100%/6);
+    margin-bottom:2%;
 }
 `
 

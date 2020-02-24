@@ -12,7 +12,7 @@ padding:0px;
 background-image:url(${Jake});
 background-size:100% 100%;
 background-repeat:no-repeat;
-@media(max-width:768px){
+@media(max-width:786px){
   background-size:cover;
   background-repeat:no-repeat;      
   }
@@ -30,7 +30,7 @@ flex-direction:row;
 justify-content: center;
 margin: 0 auto;
 width: 100%;
-@media(max-width:425px){
+@media(max-width:786px){
     flex-direction:column;
     justify-content: center;
     margin:0 auto;

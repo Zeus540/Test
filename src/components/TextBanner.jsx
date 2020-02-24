@@ -14,7 +14,7 @@ text-align: center;
 `
 
 const Para = styled.p`
-max-width:50%
+max-width:80%
 color:white
 text-align:center
 display:block

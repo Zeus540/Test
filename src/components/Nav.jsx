@@ -42,8 +42,8 @@ display: flex;
 justify-content:center;
 align-items: center;
 align-self: center;
- width:4%;
-    height:4%;
+ width:60px;
+    height:60px;
     padding:0px 2%;
 @media(max-width:425px){
     width:20%;

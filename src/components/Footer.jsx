@@ -66,7 +66,7 @@ display: inline-block;
 const Image = styled.img`
 width:35px;
 height:35px;
-margin: 10px;
+margin:15px 5px;
 
 `
 
@@ -81,8 +81,8 @@ class Footer extends Component {
             <Container>
                         <Social>
                             <List>
+                            <ListItem><Anchor href=""><Image src={this.props.link2} alt=""/></Anchor></ListItem>
                                 <ListItem><Anchor href=""><Image src={this.props.link1} alt=""/></Anchor></ListItem>
-                                <ListItem><Anchor href=""><Image src={this.props.link2} alt=""/></Anchor></ListItem>
                             </List>
                         </Social>
                         <Legal>

@@ -10,7 +10,7 @@ align-items:center;
 padding: 0% 0% 3% 0%;
 margin:0 auto;
 height:100%;
-background:#202020;
+background:#1f1f1f;
 
 
 `

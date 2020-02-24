@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import sytled from "styled-components";
 import Forms from "./form.jsx";
-import Testing from '../images/top.jpg';
+
 
 const Container=sytled.div`
     background-color:#1f1f1f;
@@ -112,18 +112,17 @@ render() {
                <ContainerInner>
 
                    <Textcontainer>
-                   <List>
-                   <Subheading>Address:</Subheading>
-                   <Item><Sub><Anchor href="">25 Thomas Crescent</Anchor></Sub></Item>
-                   <Item><Sub><Anchor href="">+27 (0)21 947 8763</Anchor></Sub></Item>
-               </List>
-              
-              
+                 
                <Mapouter class="mapouter">
                        <Gmapcanvas class="gmap_canvas">
                            <iframe width="90%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Cape%20Town&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                        </Gmapcanvas>
                 </Mapouter>
+                <List>
+                   <Subheading>Address:</Subheading>
+                   <Item><Sub><Anchor href="">25 Thomas Crescent</Anchor></Sub></Item>
+                   <Item><Sub><Anchor href="">+27 (0)21 947 8763</Anchor></Sub></Item>
+               </List>
                 <Text >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio odio quisquam rerum velit, impedit inventore aliquam culpa cupiditate laborum quia dolor recusandae sapiente quasi, incidunt cum temporibus quas voluptates ullam debitis praesentium deleniti animi mollitia. Repellendus laboriosam nulla velit numquam? Aliquid aliquam tempore eveniet tempora molestias excepturi quia eos illum?"
                </Text>

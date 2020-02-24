@@ -1,20 +1,4 @@
 
-HTML5 Reset Stylesheet
-Monday, July 27th, 2009 by Richard Clark.
-
-We’ve had a number of people ask about templates, boilerplates, and styling for HTML 5. Last week, Remy introduced some basic boilerplates for HTML 5, so to keep the momentum going, I’ve modified Eric Meyer’s CSS reset for you to use in your HTML 5 projects.
-The code
-
-Let’s start with the complete CSS stylesheet:
-
-/* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
-*/
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,

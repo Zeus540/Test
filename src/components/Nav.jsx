@@ -7,16 +7,23 @@ const Navbar = styled.div`
 width: 100%;
 border: none;
 border-radius: 0px;
-background: #202020;
+background: #1f1f1f;
 margin: 0px!important;
 z-index: 2;
 color:white;
 position: fixed;
 display:flex;
-@media(max-width:425px){
+
+@media(max-width:768px){
       flex-direction:column;
       justify-content: center;
       margin:0 auto;
+      transform: translateY(-90%);
+      transition:ease-in 200ms;
+      border-bottom: 8px #ffa644 solid;
+      &:hover{
+        transform: translateY(0%);
+      }
   }
 `
 
@@ -41,7 +48,12 @@ align-self: center;
 @media(max-width:425px){
     width:20%;
     height:20%;
+    
   }
+  @media(max-width:768px){
+      width:10%;
+      height:10%;
+    }
 `
 const ListItem = styled.li`
 list-style:none;
@@ -49,9 +61,10 @@ margin:0px 0px
 padding:10px 10px;
 transition: ease-in 200ms;
   &:hover {
-  
-    border-bottom:2px solid #FFA644;
-  
+    border-bottom:#FFA644 2px solid;
+    @media(max-width:768px){
+        background:#FFA644;
+      }
 }
     
 `
@@ -104,7 +117,7 @@ render() {
           smooth={true}
           offset={-100}
           duration= {350}
-          >Contact Me
+          >Contact Us
         </Link>
       </ListItem>
        

@@ -2,8 +2,7 @@ import React, {Component,Fragment} from 'react';
 import styled from 'styled-components';
 import Un from '../images/un.jpg';
 import Arrow from '../images/arrow.png';
-import github from '../images/github.png';
-import linkedin from '../images/linkedin.png';
+
 import { Link } from "react-scroll";
 
 const Container = styled.div`
@@ -35,7 +34,7 @@ margin: 0 auto;
 const Heading1 = styled.h2`
 color:#FFA644;
 text-align:center;
-margin-top:-2%
+margin-top:4%
 margin-bottom: 4%;
 text-transform:uppercase;
 @media(min-width:1024px){
@@ -58,27 +57,13 @@ text-align:center;
 letter-spacing:1px;
 `
 
-const IconContainer = styled.div`
-display:flex;
-justify-content:center;
-width:100%;
-`
-
-const Image = styled.img`
-width:70px
-margin:1.5%;
-@media(max-height:641px){
-  width:45px
-}
-`
-
 const InnerContainer = styled.div`
 display:flex;
 justify-content:center;
 flex-direction: column;
 height: 100%;
 background:#00000085;
-padding-top: 150px;
+padding-top: 10%;
 padding-bottom:10%;
 
 `
@@ -92,7 +77,7 @@ font-size:12px;
 text-transform:uppercase
 border:none;
 margin:5px;
-
+min-width: 144px;
 `
 
 const BtnGroup = styled.div`
@@ -107,12 +92,7 @@ margin-top:5%
 }
 ` 
 
-const D = styled.p`
-display: flex;
-justify-content: center;
-width:100%;
-color:white;
-`   
+
 
 class Jumbotron extends Component {
   render() { 
@@ -144,7 +124,6 @@ class Jumbotron extends Component {
             </BtnGroup>
             <Fragment>
             <Test>
-              <D>Scroll Down</D>
             <Link
               activeClass="active"
               to="Skills"

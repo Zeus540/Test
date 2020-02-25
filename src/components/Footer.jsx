@@ -96,7 +96,7 @@ class Footer extends Component {
                             </List>
                         </Social>
                         <Legal>
-                <Copyright><Span>&nbsp;COPENHAGEN  &copy;</Span> &nbsp;All Right Reserved Copyright 2019</Copyright>
+                <Copyright><Span>&nbsp;" OCTAPUS _ "  &copy;</Span> &nbsp;All Right Reserved Copyright 2019</Copyright>
                 </Legal>
             </Container>
            

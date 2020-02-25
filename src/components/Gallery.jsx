@@ -77,7 +77,7 @@ class Gallery extends Component {
     375: { items: 2 },
     425: { items: 3 },
     768: { items: 4 },
-    1024: { items: 5 },
+    1024: { items: 6 },
   }
  
   onSlideChange(e) {
@@ -114,20 +114,12 @@ class Gallery extends Component {
                 onSlideChange={this.onSlideChange}
                 onSlideChanged={this.onSlideChanged}
                 buttonsDisabled={true}>
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
                   <img src={css} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
-                  <img src={sass} onDragStart={handleOnDragStart} className="-d-b" />
+                  <img src={css} onDragStart={handleOnDragStart} className="-d-b" />
+                  <img src={css} onDragStart={handleOnDragStart} className="-d-b" />
+                  <img src={css} onDragStart={handleOnDragStart} className="-d-b" />
+                  <img src={css} onDragStart={handleOnDragStart} className="-d-b" />
+                  <img src={css} onDragStart={handleOnDragStart} className="-d-b" />
                 </AliceCarousel>      
                 </Box>
                 

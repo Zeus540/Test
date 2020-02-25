@@ -122,9 +122,12 @@ render() {
                 </Mapouter>
                 <List>
                    <Subheading>Address:</Subheading>
-                   <Item><Sub><Anchor href=""><p>25 Thomas Crescent</p></Anchor></Sub></Item>
-                   <Item><Sub><Anchor href="tel:021 947 8763"><p>+27 (0)21 947 8763</p></Anchor></Sub></Item>
+                   &nbsp;
+                   <Item><Sub><Anchor href="https://maps.google.com/"><i class="fa fa-home"/> &nbsp; 25 Thomas Crescent</Anchor></Sub></Item>
+                   &nbsp;
+                   <Item><Sub><Anchor href="tel:021 947 8763"><i class="fa fa-phone"/> &nbsp; 021 947 8763</Anchor></Sub></Item>
                </List>
+               &nbsp;
                 <Text >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio odio quisquam rerum velit, impedit inventore aliquam culpa cupiditate laborum quia dolor recusandae sapiente quasi, incidunt cum temporibus quas voluptates ullam debitis praesentium deleniti animi mollitia. Repellendus laboriosam nulla velit numquam? Aliquid aliquam tempore eveniet tempora molestias excepturi quia eos illum?"
                </Text>

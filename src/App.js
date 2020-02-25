@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <Nav id="Nav"/>
 
-      <Jumbotron text='Copenhagen _' text2='Digital Agency' text3='Where Creativity Comes To Life'  />
+      <Jumbotron text='OCTAPUS _' text2='Dev House'  />
 
       {State1.map((data, index) => (
             <TextBanner key={index}  heading={data.heading} paragraph1={data.paragraph1} />))}

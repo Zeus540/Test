@@ -75,7 +75,7 @@ render() {
           smooth={true}
           offset={-100}
           duration= {350}
-          ><Logo>Copenhagen _</Logo>
+          ><Logo>" OCTAPUS _ "</Logo>
         </Link>
         
       <List>

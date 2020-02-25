@@ -11,6 +11,7 @@ background-attachment:fixed;
 padding:0px;
 background-image:url(${Jake});
 background-size:100% 100%;
+height:100%;
 background-repeat:no-repeat;
 @media(max-width:786px){
   background-size:cover;

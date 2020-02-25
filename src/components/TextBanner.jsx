@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 color: coral;
-background: #1f1f1f;
+background: var(--secondary-color);
 text-align: center;
 `
 

@@ -2,20 +2,24 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-
-padding: 0px;
-height: fit-content;
+height: inherit;
 transition: ease-in 200ms;
 margin:1%;
-padding: 0px 20px;
+padding: 20px;
 background:transparent;
+width:calc(100%/3);
+
 &:hover{
     transform:scale(1.05);
-    background:#FFA644;
+    background:var(--secondary-color);
     box-shadow: #000000 18px 15px 24px 2px;
+    h4{
+        color:var(--primary-color);
+        text-decoration:unset!important;
+    }
 }
 @media(max-width:786px){
-    width:calc(100%/1.8);
+    width:calc(100%/2);
     margin: 0 auto;
     margin-bottom:15%;
 }
@@ -59,15 +63,16 @@ padding:10px;
 padding:20px;
 margin:0px;
 transition:ease-in 200ms;
+color:aliceblue;
 &:hover{
     transform:scale(1.2);
     text-decoration:underline;
 }
 `
 
-const Anchor = styled.a`
+const Anchor = styled.h2`
     color:aliceblue;
-    text-decoration:none;
+    text-decoration:unset;
     text-align:center; 
 `
 
@@ -94,13 +99,11 @@ class Card extends Component {
             </Content>
             
             <Heading>
-                <Anchor href={this.props.Link} target="_blank" rel="noopener">{this.props.name}</Anchor>
+               {this.props.name}
             </Heading>
 
             <Text>
-                <Des>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum quos nemo nihil obcaecati? Est itaque porro harum quasi impedit.
-                </Des>
+                <Des>{this.props.message}</Des>
             </Text>
         </Container>  
         );

@@ -1,4 +1,11 @@
 
+:root {
+    --primary-color: #ffd602;
+    --secondary-color: black;
+    --Heading-color: red;
+    --secondary-color: black;
+  }
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -141,8 +148,17 @@ body ,h1 {
   font-size:10px;
 
  }
+ .img{
+    height:50px;
+        width:5px;
+ }
  
 }
+.-d-b{
+    margin: 0 auto;
+    display: block;
+}
+
 @media(max-width:768px){
     p{
         font-size: 12px;
@@ -150,9 +166,26 @@ body ,h1 {
        h3{
         font-size: 12px;
        }
+       .img{
+        height:50px;
+        width:5px;
+        align-self:center;
+     }
 
  }
-
+.icon{
+    color: aliceblue;
+    
+}
+.fa{
+    font-size: 30px;
+}
+ @media(min-width:768px){
+    .img{
+        height:50px;
+        width:5px;
+     }
+  }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

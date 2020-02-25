@@ -1,6 +1,6 @@
 import React, {useState,Fragment} from 'react';
 import styled from 'styled-components';
-import Jake from '../images/top.jpg'
+import Jake from '../images/un.jpg'
 import Card from './Card.jsx' 
 import Addicts from '../images/react.png'
 import Wolf from '../images/javascript.png'
@@ -53,9 +53,9 @@ padding-bottom:4%;
 function Parallax() {
  
   const [State] = useState([
-    {name:"Responsive Design", message:"aasdasd", img:Drip, Link:"https://eloquent-morse-9094ed.netlify.com", alt:"image"},
-    {name:"Seo", message:"aasdasd", img:Addicts, Link:"https://wolfpackmedia.netlify.com/",alt:"image"},
-    {name:"Rottweiler Addicts", message:"aasdasd", img:Wolf, Link:"https://rottweiler.netlify.com/",alt:"image"},
+    {name:"Responsive Design", message:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iste maiores hic! Aspernatur neque eos ullam quis cum placeat libero. Ad pariatur quibusdam doloribus ut, commodi non error inventore quidem?", img:Drip,  alt:"image"},
+    {name:"Seo", message:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum quos nemo nihil obcaecati? Est itaque porro harum quasi impedit.", img:Addicts, alt:"image"},
+    {name:"Rottweiler Addicts", message:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloremque ex numquam eos provident dolore repellendus laborum, amet ut accusamus eius veniam eaque perspiciatis magnam rerum. Animi quisquam ullam soluta ipsa ducimus, vero fugiat eligendi neque magnam accusamus nesciunt itaque!", img:Wolf, alt:"image"},
     
   ]);
  

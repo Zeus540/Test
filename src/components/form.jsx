@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Container =styled.div`
-background-color:#1f1f1f;
+background-color:var(--secondary-color);
 border:none;
 border-radius:10px;
 color:white;
@@ -31,7 +31,7 @@ justify-content:space-around;
 const Input =styled.input`
 background-color:transparent;
 border:none;
-border-bottom:2px solid #ffa644;
+border-bottom:2px solid var(--primary-color);
 min-height:40px;
 margin-bottom:5px;
 color:aliceblue;
@@ -40,7 +40,7 @@ color:aliceblue;
 const Label =styled.label`
 display:flex;
 flex-direction:column;
-color:#ffa644;
+color:aliceblue;
 `
 
 const Textarea =styled.textarea`
@@ -52,9 +52,9 @@ margin-top:10px;
 `
 
 const Button =styled.button`
-background-color:#FFA644;
+background-color:var(--primary-color);
 border:none;
-color:aliceblue;
+color:var(--secondary-color);;
 text-transform:uppercase;
 padding:10px 100px;
 width:fit-content;

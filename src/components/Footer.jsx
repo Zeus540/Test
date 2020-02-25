@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-background-color:#FFA644;
+background-color:var(--primary-color);
 display:inline-block;
 width:100%;
+padding: 10px 0px;
 @media(max-width:425px){
     display:flex;
     flex-direction:column;
@@ -14,10 +15,10 @@ width:100%;
 `
 
 const Copyright = styled.p`
-color:white;
-padding:0px 20px;
+color:var(--secondary-color);;
 display: flex;
-margin: 20px;
+font-size:12px;
+flex-wrap: wrap; 
 justify-content: center;
     @media(max-width:425px){
         text-align: center;
@@ -48,7 +49,7 @@ margin: 0px;
 
 const ListItem = styled.li`
 list-style:none;
-color:#1f1f1f;
+color:var(--secondary-color);
 font-weight:bolder;
 display:inline-block;
 padding:0px 0px;
@@ -63,16 +64,21 @@ const Legal = styled.div`
 display: inline-block;
 `
 
-const Image = styled.img`
-width:35px;
-height:35px;
+const I = styled.i`
+width:30px;
+height:30px;
 margin:15px 5px;
-
+border-radius: 5px;
 `
 
 const Anchor = styled.a`
 text-decoration:none;
 color:white;
+margin:15px 5px;
+`
+const Span = styled.span`
+font-size:17px;
+color:var(--secondary-color);
 `
 class Footer extends Component {
     render() { 
@@ -81,12 +87,16 @@ class Footer extends Component {
             <Container>
                         <Social>
                             <List>
-                            <ListItem><Anchor href=""><Image src={this.props.link2} alt=""/></Anchor></ListItem>
-                                <ListItem><Anchor href=""><Image src={this.props.link1} alt=""/></Anchor></ListItem>
+                                <ListItem><Anchor href="" class="icon"> <i class="fa fa-whatsapp"></i></Anchor></ListItem>
+                                &nbsp;
+                                <ListItem><Anchor href="" class="icon"> <i class="fa fa-instagram"></i></Anchor></ListItem>
+                                &nbsp;
+                                <ListItem><Anchor href="" class="icon"><i class="fa fa-facebook-square"></i></Anchor></ListItem>
+                                &nbsp;
                             </List>
                         </Social>
                         <Legal>
-                <Copyright>COPENHAGEN &copy; All Right Reserved Copyright 2019</Copyright>
+                <Copyright><Span>&nbsp;COPENHAGEN  &copy;</Span> &nbsp;All Right Reserved Copyright 2019</Copyright>
                 </Legal>
             </Container>
            

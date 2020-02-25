@@ -32,7 +32,7 @@ margin: 0 auto;
 `
 
 const Heading1 = styled.h2`
-color:#FFA644;
+color:var(--primary-color);
 text-align:center;
 margin-top:4%
 margin-bottom: 4%;
@@ -65,19 +65,25 @@ height: 100%;
 background:#00000085;
 padding-top: 10%;
 padding-bottom:10%;
-
+@media(max-width:425px){
+  padding-top: 20%;
+}
 `
 
 const Btn = styled.button`
 padding:13px 30px;
-background:#FFA644;
-color:white;
+background:var(--primary-color);
+color:var(--secondary-color);;
 font-weight:bold;
 font-size:12px;
 text-transform:uppercase
 border:none;
 margin:5px;
 min-width: 144px;
+@media(max-width:425px){
+  min-width: 116px;
+  padding:10px 10px
+}
 `
 
 const BtnGroup = styled.div`
@@ -122,17 +128,7 @@ class Jumbotron extends Component {
               duration= {500}>
                 <Btn>GET A QUOTE</Btn></Link>
             </BtnGroup>
-            <Fragment>
-            <Test>
-            <Link
-              activeClass="active"
-              to="Skills"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration= {500}><NavArrow  src = {Arrow} alt=""/></Link>
-            </Test>
-            </Fragment>
+           
             </Fragment>
            </InnerContainer >
         </Container> 

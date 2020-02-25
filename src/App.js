@@ -8,8 +8,7 @@ import ContactMe from './components/ContactMe.jsx'
 import Footer from './components/Footer.jsx'
 import Gallery from './components/Gallery.jsx'
 import Testimonials from './components/Testimonials.jsx'
-import github from '../src/images/github.png'
-import linkedin from '../src/images/linkedin.png'
+
 
 function App() {
 
@@ -45,7 +44,7 @@ function App() {
     
             <Testimonials/>
            <ContactMe/>
-      <Footer link1={linkedin} link2={github}/>
+      <Footer/>
     </div>
   );
 }

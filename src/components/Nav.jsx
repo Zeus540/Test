@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 import {Link} from "react-scroll";
-import pic from '../images/logo.png';
+
 
 const Navbar = styled.div`
 width: 100%;
